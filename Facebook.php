@@ -23,7 +23,9 @@
     <button class="click2">Create a new account</button>
 </div>
        <p class="page"> <span class="page1" style="font-weight: bold;">  Create a Page </span> for a celebrity, brand or business.</p>
-
+  
+       <input id="email" class="type1" type="text" placeholder="Email or phone number"><br><br>
+    <input id="password" class="type2" type="password" placeholder="Password"><br><br>
 </body>
  <script src="/Facebook.js"></script>
 </html>
