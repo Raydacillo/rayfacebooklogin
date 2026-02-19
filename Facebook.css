@@ -1,0 +1,131 @@
+
+.body {
+    display: inline-flex;
+    background-color: color rgb(252, 235, 250);
+}
+
+.div2 {
+    border: 1px solid rgb(184, 183, 183);
+    box-shadow: 0px 0px 10px rgb(184, 183, 183);
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+.colorfont {
+    color: rgb(32, 84, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+.colorfont2 {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1 {
+    margin: 150px;
+    margin-left: 330px;
+    font-size: 39px;
+
+}
+
+.bordercollat {
+    border: 2px solid grey;
+    margin-top: 100px;
+}
+
+.only {
+    margin-left: 700px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.type1 {
+    padding: 15px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 6px;
+}
+
+.type2 {
+    padding: 15px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 6px;
+}
+
+.type3 {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 110px;
+    color: rgb(0, 47, 255);
+}
+
+.click {
+    text-align: center;
+    padding: 10px;
+    padding-left: 140px;
+    padding-right: 127px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(4, 121, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    border-radius: 6px;
+    border: 1px solid rgb(184, 183, 183);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.click2 {
+    text-align: center;
+    padding: 10px;
+    margin-left: 70px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(33, 188, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    border-radius: 6px;
+    border: 1px solid rgb(184, 183, 183);
+    transform: scale(1);
+   
+    height: 50px;
+}
+
+.click:hover {
+    background-color: rgb(32, 136, 255);
+    transform: scale(1)
+}
+
+.underline{
+    border: 1px solid rgb(184, 183, 183);
+     margin-bottom: 15px;
+}
+
+.type3:hover{
+    text-decoration: underline;
+}
+
+.page{
+    position: absolute;
+    top: 540px;
+    left: 935px;
+}
+
+.page1:hover{
+     text-decoration: underline;
+}
+
+.type1:hover{
+    border-color: blue;
+}
+.type2:hover{
+    border-color: blue;
+}
