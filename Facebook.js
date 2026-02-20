@@ -9,7 +9,7 @@ var getemail = email_inp.value;
 var getpass = pass_inp.value;
 
 if (getemail === myemail && getpass === password) {
-   window.location.href = "card.html";
+   window.location.href = "pages/login.php";
 } else {
     alert("Login Failed");
 

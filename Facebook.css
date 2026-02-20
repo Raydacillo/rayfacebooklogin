@@ -48,16 +48,21 @@
     padding: 15px;
     padding-right: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid rgb(184, 183, 183);
+    background-color: rgb(235, 235, 235);
     border-radius: 6px;
+    border: none;
+    outline: none;
 }
 
 .type2 {
     padding: 15px;
     padding-right: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid rgb(184, 183, 183);
+    background-color: rgb(235, 235, 235);
     border-radius: 6px;
+    border: none;
+    outline: none;
+
 }
 
 .type3 {
@@ -103,7 +108,10 @@
     background-color: rgb(32, 136, 255);
     transform: scale(1)
 }
-
+.click2:hover {
+    background-color: rgb(0, 163, 41);
+    transform: scale(1)
+}
 .underline{
     border: 1px solid rgb(184, 183, 183);
      margin-bottom: 15px;

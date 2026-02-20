@@ -4,7 +4,7 @@ include "../../config/includes.php";
 if (isset($_POST['user_id'])) {
 
     $name = $_POST['names'];
-     $age = $_POST['age'];
+    $age = $_POST['age'];
     $address = $_POST['address'];
     $username = $_POST['username'];
     $password = $_POST['password'];
