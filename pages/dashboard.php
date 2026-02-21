@@ -3,7 +3,7 @@
 if (isset($_GET['name'])){
 $name = $_GET['name'];
 }else{
-$name = "No name";
+$name = "User";
 }
 
 ?>

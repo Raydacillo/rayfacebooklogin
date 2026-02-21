@@ -57,7 +57,7 @@ function registerUser(array $data): bool {
         return false;
     }
 
-    $hashed = password_hash($data['password'], PASSWORD_DEFAULT);
+    
 
     $sql = "INSERT INTO {$table} (email, username, first_name, last_name, mobile_num, birthday, gender, password)
             VALUES (:email, :username, :first_name, :last_name, :mobile_num, :birthday, :gender, :password)";
@@ -71,7 +71,7 @@ function registerUser(array $data): bool {
             ':mobile_num' => $data['mobile_num'],
             ':birthday'   => $data['birthday'],
             ':gender'     => $data['gender'],
-            ':password'   => $hashed,
+            ':password'   => $data['password'],
         ]);
         return true;
     } catch (PDOException $e) {
